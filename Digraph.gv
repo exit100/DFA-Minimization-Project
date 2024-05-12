@@ -1,0 +1,10 @@
+digraph {
+	A
+	B [peripheries=2]
+	A -> B [label=0]
+	A -> B [label=1]
+	B -> B [label=0]
+	B -> B [label=1]
+	start [shape=point]
+	start -> A [label=Start]
+}
